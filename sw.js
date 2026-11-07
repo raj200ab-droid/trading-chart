@@ -1,4 +1,4 @@
-const CACHE = 'flowstate-shell-v1';
+const CACHE = 'flowstate-shell-v2';
 const FILES = ['./', './index.html', './styles.css', './premium.css', './mobile.css', './rsi.css', './tools.css', './advanced.css', './paper.css', './reliability.css', './calibration.css', './shortlist.css', './features.js', './enhancements.js', './scanner.js', './live.js', './app.js', './manifest.json', './icon.svg'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES)).then(() => self.skipWaiting()));
