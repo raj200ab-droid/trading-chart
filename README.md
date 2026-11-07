@@ -1,6 +1,6 @@
 # Flowstate — Binance Market Analysis
 
-A responsive educational market-analysis dashboard using Binance public data; no account, API key, location, or special network permission is needed. Spot pairs and USDⓈ-M perpetual futures are fetched from separate Binance market universes. The app screens a 300-market liquidity pool, then checks the top 6 positive/negative 24h-momentum candidates with 15m/4h/1D technicals and displays only confirmed Strong Buy/Strong Sell results.
+A responsive educational market-analysis dashboard using Binance public data; no account, API key, location, or special network permission is needed. Spot pairs and USDⓈ-M perpetual futures are fetched from separate Binance market universes. The app screens the top 100 markets by liquidity, then checks the top 6 positive/negative 24h-momentum candidates with 15m/4h/1D technicals and displays only confirmed Strong Buy/Strong Sell results.
 
 ## Run / use on a phone
 
