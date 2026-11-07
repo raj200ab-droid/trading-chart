@@ -1,6 +1,6 @@
 # Flowstate — Binance Market Analysis
 
-A responsive educational market-analysis dashboard using Binance public data; no account, API key, location, or special network permission is needed. Spot pairs and USDⓈ-M perpetual futures are fetched from their separate Binance market universes; the scanner ranks up to 300 USDT markets by 24-hour quote volume.
+A responsive educational market-analysis dashboard using Binance public data; no account, API key, location, or special network permission is needed. Spot pairs and USDⓈ-M perpetual futures are fetched from separate Binance market universes. The app screens a 300-market liquidity pool, then checks the top 6 positive/negative 24h-momentum candidates with 15m/4h/1D technicals and displays only confirmed Strong Buy/Strong Sell results.
 
 ## Run / use on a phone
 
@@ -23,7 +23,7 @@ GitHub Actions builds the same debug APK automatically on every pushed branch.
 
 ## Features
 
-- Searchable Binance Spot and Futures scanner, distinct market universes, multi-timeframe 15m/4h/1D OHLC and RSI(14) signal confirmation; live WebSocket with automatic reconnect and REST fallback.
+- Separate Strong Buy / Strong Sell shortlisted results from Binance Spot/Futures universes; click a candidate for its MTF score, RSI checks, and illustrative entry/stop/target plan. Live WebSocket has reconnect and REST fallback.
 - Signal strength with a plain-language explanation of 15m/4h/1D trends, RSI, volume vs 20-bar average, MACD histogram, ADX, nearest swing support/resistance, VWAP, RSI divergence, breakout/retest, EMA 200, order-book imbalance, ATR volatility filter, and ATR stop distance. Select a minimum number of confirmations; insufficient setups display WAIT / MIXED. Scalp mode sets fixed 0.75% stop and +1% / +2% take-profit targets.
 - Futures-only funding-rate crowding and 15-minute open-interest change checks, using public Binance endpoints where available.
 - Account balance and risk-percent calculator for maximum loss, approximate coin quantity, and notional position size.
