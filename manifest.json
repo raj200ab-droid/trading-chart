@@ -1,0 +1,12 @@
+{
+  "name": "Flowstate Binance Analysis",
+  "short_name": "Flowstate",
+  "description": "Binance spot and futures market analysis with multi-timeframe signals.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6fa",
+  "theme_color": "#101a2a",
+  "orientation": "portrait-primary",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
